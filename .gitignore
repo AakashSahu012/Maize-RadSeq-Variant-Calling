@@ -57,8 +57,9 @@ raw.vcf/
 .sa
 
 # Scripts
-
-
+!data/sample.csv
+!mix/*
+!CT_seed_p2_SET_01/01_sabre/sabre_cmd.txt
 # Miscellaneous
 namelist
 popmap
