@@ -1,0 +1,77 @@
+# ========================
+# File types to ignore
+# ========================
+
+# Compressed and raw data
+*.gz
+*.fastq.gz
+
+# Logs and reports
+*.log
+*.LOG
+*.stat
+*.stats
+logfiles/
+bamqc_result/
+
+# Text files
+*.txt
+!scripts/*.txt
+!scripts/*.sh
+!scripts/mix/*.sh
+!scripts/*.py    # <-- Keep .txt files in scripts/
+!scripts/
+!scripts/**
+# Tabular data
+*.csv
+*.tsv
+*.list
+*.runs
+*.file
+*.frq
+*.nosex
+
+# VCF and related
+*.vcf
+*.tbi
+raw.vcf/
+
+# BAM and related
+*.bam
+*.bai
+*.bam.bai
+
+# Reference genome/index files
+*.dict
+*.fasta
+.fasta
+*.fa
+.amb
+.ann
+.bwt
+.fai
+.pac
+.sa
+
+# Scripts
+*.py
+*.sh
+
+# Miscellaneous
+namelist
+popmap
+
+# ========================
+# Folders to ignore
+# ========================
+CTseed_phase2_RawData/
+Set_2_barcodes/
+unique/
+wrong/
+unknown/
+
+
+# Ignore swap files
+*.swp
+*.swo
+
