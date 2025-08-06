@@ -16,6 +16,8 @@ bamqc_result/
 
 # Text files
 *.txt
+*.sh
+*.py
 !scripts/*.txt
 !scripts/*.sh
 !scripts/mix/*.sh
@@ -30,7 +32,8 @@ bamqc_result/
 *.file
 *.frq
 *.nosex
-
+*.bed
+.logs
 # VCF and related
 *.vcf
 *.tbi
@@ -54,8 +57,7 @@ raw.vcf/
 .sa
 
 # Scripts
-*.py
-*.sh
+
 
 # Miscellaneous
 namelist
@@ -74,4 +76,10 @@ unknown/
 # Ignore swap files
 *.swp
 *.swo
-
+.swm
+.swn
+.swl
+All_sample/mapped.bed
+All_sample/vcf_files/.snp_extract.sh.sw*
+All_sample/vcf_files/RawSNPsOnly.logs
+All_sample/vcf_files/SNPsOnly_r1_frequency_out.logs
