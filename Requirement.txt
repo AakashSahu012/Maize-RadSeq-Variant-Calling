@@ -1,0 +1,43 @@
+💻 Project Requirements
+🐳 Environment
+
+    Docker: Yes (recommended for reproducibility)
+
+    Minimum Hardware:
+
+        CPU: 32 threads minimum
+
+        Memory: 64 GB RAM or more recommended
+
+        Disk Space: >100 GB (depends on input size)
+
+📦 Required Tools
+
+| Tool            | Version / Folder Name         | Notes                   |
+| --------------- | ----------------------------- | ----------------------- |
+| **sabre**       | `sabre`                       | Barcode trimming        |
+| **Stacks**      | `stacks-2.68`                 | RADseq pipeline         |
+| **TASSEL**      | `TASSEL5`, `TASSEL_5_unix.sh` | GBS analysis            |
+| **Bowtie2**     | `bowtie2-2.5.4-linux-x86_64`  | Read alignment          |
+| **Samtools**    | `samtools-1.21`               | BAM processing          |
+| **HTSlib**      | `htslib-1.21`                 | Required for Samtools   |
+| **Bcftools**    | `bcftools-1.21`               | VCF processing          |
+| **VCFtools**    | `vcftools`                    | VCF filtering           |
+| **Seqkit**      | `seqkit_linux`                | FASTA/FASTQ tools       |
+| **Seqtk**       | `seqtk-1.4`                   | Lightweight FASTA/FASTQ |
+| **Picard**      | `picard.jar`                  | BAM processing          |
+| **GATK**        | `gatk-4.6.1.0`                | Variant discovery       |
+| **Qualimap**    | `qualimap_v2.3`               | QC of BAM files         |
+| **Plink**       | `plink_1.9`                   | GWAS & PCA              |
+| **Trimmomatic** | `Trimmomatic-0.39`            | Adapter trimming        |
+| **Raspberry**   | `Raspberry-0.2`               | Optional? Not standard  |
+
+☕ Java Requirements
+
+| Tool    | Version                       |
+| ------- | ----------------------------- |
+| **JDK** | `jdk-21.0.5`, `jdk-23.0.1`    |
+| **JRE** | `jre1.7.0_80`, `jre1.8.0_311` |
+
+
+Note: Ensure the correct JDK/JRE version is used per tool. Some tools (e.g., Picard, GATK) may fail with Java version mismatch.
