@@ -59,6 +59,9 @@ raw.vcf/
 # Scripts
 !data/sample.csv
 !mix/*
+CT_seed_p2_SET_01/*
+!CT_seed_p2_SET_01/**/
+!CT_seed_p2_SET_01/02_pcrt/pcrt_cmd.txt
 !CT_seed_p2_SET_01/01_sabre/sabre_cmd.txt
 # Miscellaneous
 namelist
