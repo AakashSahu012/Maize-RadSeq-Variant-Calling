@@ -18,6 +18,7 @@ bamqc_result/
 *.txt
 *.sh
 *.py
+!Requirement.txt
 !scripts/*.txt
 !scripts/*.sh
 !scripts/mix/*.sh
